@@ -1,5 +1,5 @@
-const base_url = "http://api.weatherapi.com/v1"
-const api_key = "9aa5d77854b04d678d084859242508"
+const base_url = ""
+const api_key = ""
 
 const getWeather=async()=>{
     let result = ""
