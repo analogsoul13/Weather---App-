@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="flex flex-col items-center justify-center container">
+        <h1 class="text-3xl mt-4">Weather</h1>
+
+        <div class="flex flex-col items-center py-6 gap-4 bg-blue-400 h-[500px] md:w-[600px] ring-1 rounded-lg shadow-xl mt-4">
+
+        <!-- input field     -->
+            <input class="mx-6 md:w-[350px] h-[50px] px-4 rounded-md mt-8 focus:outline-none" type="text" placeholder="Enter City Name" id="winp">
+            <button onclick="getWeather()" class="bg-green-400 rounded-full px-4 text-sm shadow-md hover:shadow-2xl hover:bg-green-500 py-3" type="button">Check Weather</button>
+
+        <!-- weather details display -->
+        <div class="flex flex-col items-center mx-4 py-14 bg-white rounded-md w-[300px] md:w-[520px] h-[260px]" id="cnt">
+
+        </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
